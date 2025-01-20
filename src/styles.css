@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #96bfee;
+}
+
+.App {
+  text-align: center;
+  background-color: #96bfee;
+  height: calc(100vh - 60px);
+  /* Adjusting for the navbar */
+  color: white;
+  display: flex;
+  margin: 0;
+}
+
+.container {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  height: 60px;
+}
+
+.color-primary {
+  color: #777578;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#api-key {
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #f5ea70;
+  background-color: #021424;
+  color: white;
+}
+
+#api-key::placeholder {
+  color: #7a7a7a;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.primaryColor {
+  color: #f5ea70;
+}
+
+.secondaryColor {
+  color: rgb(255, 255, 255);
+}
+
+#mainForm {
+  margin: 20px auto;
+  display: inline-flex;
+}
+
+#mainForm input {
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 1px solid white;
+  outline: none;
+}
+
+#mainButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: 1px solid #f5ea70;
+  outline: none;
+  background-color: #f5ea70;
+  color: white;
+  font-weight: 900;
+  margin-left: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#mainButton:hover {
+  background-color: #f5ea70;
+}
+
+#response {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  background-color: #96bfee; /* Match the .App background */
+  color: white; /* Ensure text is readable */
+  width: 100%; /* Make it span the full width */
+}
